@@ -1,18 +1,13 @@
-#include<stdio.h>
-   
-#define MAX 5
- 
-int main()
-{
-    int i,j;
- 
-    for(i=0; i< MAX; i++)
-    {
-        for(j=0;j<=i;j++)
-        {
-            printf("*");
-        }
-        printf("\n");
+# include<stdio.h>
+int main(){
+    int a;
+    printf("enter any number\n");
+    scanf("%d",&a);
+    if(a%2==0){
+        printf("%d is even\n",a);
+    }
+    else{
+         printf("%d is odd\n",a);
     }
     return 0;
 }
