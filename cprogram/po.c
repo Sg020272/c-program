@@ -1,0 +1,2 @@
+// write a program to take list of student name from user by asking number of student and then in alphabetical order sample input bhisam jayant abhiskhek dhruv sample output
+make a program to take two string as input from user and check they are identical or not without using string function sample input Jai Gla out put identical 
