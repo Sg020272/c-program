@@ -1,0 +1,11 @@
+//pointer of an array
+#include<stdio.h>
+int main(){
+    int a[5]={1, 2, 3, 43, 45},i;
+    int (*p)[5];
+    p=&a;
+    for(i=0;i<5;i++)
+    {
+        printf(" %d ",(*p)[i]);
+    }
+}
